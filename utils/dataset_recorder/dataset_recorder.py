@@ -44,19 +44,26 @@ def Dataset_recorder(class_name = 'nolabel',type='train',shape=(120,120),save_or
         os.makedirs(original_dataset_path, exist_ok=True)
     face_detector = dlib.get_frontal_face_detector()
     face_predictor = dlib.shape_predictor(os.path.join(module_path,'system',"shape_predictor_68_face_landmarks.dat"))
-    capture = cv2.VideoCapture(1)
+    capture = cv2.VideoCapture(0)
+    capture.set(cv2.CAP_PROP_FPS, 30);
+    capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1280);
+    capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 720);
+
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    width = capture.get(cv2.CAP_PROP_FRAME_WIDTH)
-    height = capture.get(cv2.CAP_PROP_FRAME_HEIGHT)
+    width = int(capture.get(cv2.CAP_PROP_FRAME_WIDTH))
+    height = int(capture.get(cv2.CAP_PROP_FRAME_HEIGHT))
     count = 0
     info = ''
     while (capture.isOpened()):
         while True:
             ret, frame = capture.read()
             if ret:
-                cv2.putText(frame, 'Status: Break'+ info, (0, 40), cv2.FONT_ITALIC, 1, (0, 0, 255),thickness=4)
-                cv2.putText(frame, 'record: [space]', (0, 80), cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=4)
-                cv2.putText(frame, 'exit: [ECS]', (0, 120), cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=4)
+                cv2.putText(frame, 'status: Break' , (0, 40), cv2.FONT_ITALIC, 1, (0, 0, 255),thickness=4)
+                cv2.putText(frame, 'class: '+class_name, (0, 80), cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=4)
+                cv2.putText(frame, 'info: ' + info, (0, 120), cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=4)
+                cv2.putText(frame, 'record: [space]', (0, height-120), cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=4)
+                cv2.putText(frame, 'delete previous: [Del]', (0, height-80), cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=4)
+                cv2.putText(frame, 'exit: [ECS]', (0, height-40), cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=4)
                 cv2.imshow('Video Stream', frame)
                 k = cv2.waitKey(1) & 0xFF
             if keyboard.is_pressed('space'):
@@ -65,6 +72,20 @@ def Dataset_recorder(class_name = 'nolabel',type='train',shape=(120,120),save_or
                 capture.release()
                 cv2.destroyAllWindows()
                 exit(0)
+            if keyboard.is_pressed('del'):
+                if count != 0:
+                    if save_original:
+                        if os.path.exists(os.path.join(original_dataset_path, str(count-1)+'_'+random_filename + ".mp4")):
+                            os.remove(os.path.join(original_dataset_path, str(count-1)+'_'+random_filename + ".mp4"))
+                            info = info + 'Deleted'
+                    if os.path.exists(os.path.join(cut_dataset_path, str(count - 1) + '_' + random_filename + ".mp4")):
+                        os.remove(os.path.join(cut_dataset_path, str(count-1) + '_' + random_filename + ".mp4"))
+                        info = info + 'Deleted'
+
+                else:
+                    info = info + 'no previous'
+
+
         framecount = 0
         frames = []
 
@@ -74,10 +95,10 @@ def Dataset_recorder(class_name = 'nolabel',type='train',shape=(120,120),save_or
                 frames.append(numpy.copy(frame))
 
                 if framecount == 29:
-                    cv2.putText(frame,'Status: Processing', (0, 25),
+                    cv2.putText(frame,'status: Processing', (0, 40),
                                 cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=4)
                 else:
-                    cv2.putText(frame, 'Status: RECORDING: ' + str(round((30 - framecount) / 30, 2)), (0, 25),
+                    cv2.putText(frame, 'status: RECORDING: ' + str(round((30 - framecount) / 30, 2)), (0, 40),
                                 cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=4)
                 cv2.imshow('Video Stream', frame)
                 k = cv2.waitKey(1) & 0xFF
@@ -88,27 +109,28 @@ def Dataset_recorder(class_name = 'nolabel',type='train',shape=(120,120),save_or
         faces = []
         for frame in frames:
             face = get_mouth(frame, face_detector, face_predictor, shape)
-            faces.append(numpy.copy(face))
-            cv2.imshow('face', face)
-            k = cv2.waitKey(1) & 0xFF
             if face is None:
-                info = "NOT SAVED, " + " No face in " + str(framecount) + 'th'
+                info = " NOT SAVED, " + " No face in " + str(framecount) + 'th'
                 break
+            faces.append(numpy.copy(face))
+            cv2.imshow('face', cv2.resize(face,dsize=(0,0),fx=5,fy=5))
+            k = cv2.waitKey(1) & 0xFF
 
 
         if(len(faces) == 30):
-            video_writer = cv2.VideoWriter(os.path.join(cut_dataset_path,random_filename + ".mp4"), fourcc, 30, shape)
+            video_writer = cv2.VideoWriter(os.path.join(cut_dataset_path,str(count)+'_'+random_filename + ".mp4"), fourcc, 30, shape)
             info = 'saved [cut]'
             for frame in faces:
                 video_writer.write(frame)
             video_writer.release()
-            count = count + 1
-        if save_original:
-            if (len(frames) == 30):
-                video_writer = cv2.VideoWriter(os.path.join(original_dataset_path, random_filename + ".mp4"), fourcc, 30,(int(width), int(height)))
-                info = info +' [original]'
-                for frame in frames:
-                    video_writer.write(frame)
-                video_writer.release()
-                count = count + 1
+
+            if save_original:
+                if (len(frames) == 30):
+                    video_writer = cv2.VideoWriter(os.path.join(original_dataset_path, str(count)+'_'+random_filename + ".mp4"), fourcc, 30,(int(width), int(height)))
+                    info = info +' [original]'
+                    for frame in frames:
+                        video_writer.write(frame)
+                    video_writer.release()
+
+        count = count + 1
 
