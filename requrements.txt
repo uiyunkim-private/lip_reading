@@ -1,0 +1,6 @@
+opencv-python
+keyboard
+numpy
+cmake
+dlib
+imutils
