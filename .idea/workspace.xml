@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/requrements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +72,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch/utils/dataset_recorder/dataset_recorder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dataset_recorder (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lip_reading_yonsei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils/dataset_recorder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/dataset_recorder/dataset_recorder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,6 +167,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.dataset_recorder (2)" />
         <item itemvalue="Python.dataset_recorder (1)" />
         <item itemvalue="Python.dataset_recorder" />
         <item itemvalue="Python.main" />
@@ -208,22 +228,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1256" height="269" key="GridCell.Tab.0.bottom" timestamp="1591356181720">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1420" height="147" key="GridCell.Tab.0.bottom" timestamp="1591589014802">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state width="1420" height="147" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
     <state width="1256" height="269" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1591356181720" />
-    <state width="1256" height="269" key="GridCell.Tab.0.center" timestamp="1591356181720">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1258" height="401" key="GridCell.Tab.0.bottom/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591588080163" />
+    <state width="1420" height="147" key="GridCell.Tab.0.center" timestamp="1591589014802">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state width="1420" height="147" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
     <state width="1256" height="269" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1591356181720" />
-    <state width="1256" height="269" key="GridCell.Tab.0.left" timestamp="1591356181720">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1258" height="401" key="GridCell.Tab.0.center/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591588080163" />
+    <state width="1420" height="147" key="GridCell.Tab.0.left" timestamp="1591589014802">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state width="1420" height="147" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
     <state width="1256" height="269" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1591356181720" />
-    <state width="1256" height="269" key="GridCell.Tab.0.right" timestamp="1591356181720">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1258" height="401" key="GridCell.Tab.0.left/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591588080163" />
+    <state width="1420" height="147" key="GridCell.Tab.0.right" timestamp="1591589014802">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state width="1420" height="147" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
     <state width="1256" height="269" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591356181720" />
+    <state width="1258" height="401" key="GridCell.Tab.0.right/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591588080163" />
     <state width="2539" height="491" key="GridCell.Tab.1.bottom" timestamp="1591288996087">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -240,10 +268,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591288996087" />
-    <state x="837" y="434" key="SettingsEditor" timestamp="1591279721269">
+    <state x="837" y="434" key="SettingsEditor" timestamp="1591618983481">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="837" y="434" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591279721269" />
+    <state x="837" y="434" key="SettingsEditor/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591618983481" />
     <state x="1174" y="523" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1591279127973">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

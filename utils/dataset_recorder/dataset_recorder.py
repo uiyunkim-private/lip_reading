@@ -83,7 +83,7 @@ def Dataset_recorder(class_name = 'nolabel',type='train',shape=(120,120),save_or
                         info = info + 'Deleted'
 
                 else:
-                    info = info + 'no previous'
+                    info = info+ 'no previous'
 
 
         framecount = 0
