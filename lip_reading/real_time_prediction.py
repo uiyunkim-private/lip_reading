@@ -14,5 +14,4 @@ with open(os.path.join(conf_dir, 'classes.pkl'), 'rb') as f:
     classes = pickle.load(f)
 
 model = tf.keras.models.load_model(model_dir)
-
 RealtimePrediction(model,classes,shape=(120,120))
