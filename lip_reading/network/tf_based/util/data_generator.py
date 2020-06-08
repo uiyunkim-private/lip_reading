@@ -12,6 +12,7 @@ def lip_reading_image_processing(image):
     return image
 
 def LR_preprocessor(ID):
+    print(ID)
     images = []
 
     vidcap = cv2.VideoCapture(ID)

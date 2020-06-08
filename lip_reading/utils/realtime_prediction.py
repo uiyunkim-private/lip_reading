@@ -92,15 +92,15 @@ def RealtimePrediction(model,classes,shape=(120,120)):
 
         random_filename = str(uuid.uuid4())
         if(len(faces) == 30):
-            video_writer = cv2.VideoWriter(os.path.join(module_path,'storage','temp',random_filename + ".mp4"), fourcc, 30, shape)
+            video_writer = cv2.VideoWriter(os.path.join(module_path,'lip_reading','storage','temp',random_filename + ".mp4"), fourcc, 30, shape)
             info = 'saved [cut]'
             for frame in faces:
                 video_writer.write(frame)
             video_writer.release()
 
-        sample = LR_preprocessor(os.path.join(module_path,'storage','temp',random_filename + ".mp4"))
-        data = numpy.array(sample)
-        data = data.reshape(shap=(26,120,120,5))
-        predictions = model.predict(data)
-        print(predictions)
-        count = count + 1
+            sample = LR_preprocessor(os.path.join(module_path,'lip_reading','storage','temp',random_filename + ".mp4"))
+            data = numpy.array(sample)
+            data = data.reshape(1,26,120,120,5)
+            predictions = model.predict(data)
+            print(predictions)
+            count = count + 1
