@@ -1,0 +1,1 @@
+from lip_reading.network.tf_based.model.resnet_based import BI_LSTM

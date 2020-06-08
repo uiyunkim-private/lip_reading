@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init" />
+    <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,14 +55,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\repository\lip_reading_yonsei" />
-      <recent name="F:\repository\lip_reading_yonsei\system" />
-      <recent name="F:\repository\lip_reading_yonsei\pytorch\utils\dataset_recorder" />
-      <recent name="F:\repository\lip_reading_yonsei\pytorch" />
+      <recent name="F:\repository\lip_reading_yonsei\lip_reading\utils" />
+      <recent name="F:\repository\lip_reading_yonsei\lip_reading" />
+      <recent name="F:\repository\lip_reading_yonsei\lip_reading\network\tf_based\util" />
+      <recent name="F:\repository\lip_reading_yonsei\lip_reading\storage" />
+      <recent name="F:\repository\lip_reading_yonsei\lip_reading\nn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="dataset_recorder (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.real_time_prediction">
+    <configuration name="data_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,32 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch/utils/dataset_recorder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lip_reading/network/tf_based/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch/utils/dataset_recorder/dataset_recorder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dataset_recorder (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lip_reading_yonsei" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils/dataset_recorder" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/dataset_recorder/dataset_recorder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lip_reading/network/tf_based/util/data_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lip_reading/utils/dataset_recorder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\repository\lip_reading_yonsei\pytorch\utils\dataset_recorder\dataset_recorder.py" />
+      <option name="SCRIPT_NAME" value="F:\repository\lip_reading_yonsei\lip_reading\utils\dataset_recorder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="real_time_prediction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lip_reading" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lip_reading/real_time_prediction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="realtime_prediction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +134,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytorch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lip_reading/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytorch/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lip_reading/utils/realtime_prediction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lip_reading_yonsei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lip_reading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lip_reading/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.dataset_recorder (2)" />
-        <item itemvalue="Python.dataset_recorder (1)" />
+        <item itemvalue="Python.real_time_prediction" />
+        <item itemvalue="Python.realtime_prediction" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.data_generator" />
         <item itemvalue="Python.dataset_recorder" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -228,58 +232,63 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1420" height="147" key="GridCell.Tab.0.bottom" timestamp="1591589014802">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="649" y="374" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591621128950">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="365" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1591589969066" />
+    <state x="649" y="374" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1591621128950" />
+    <state width="1256" height="435" key="GridCell.Tab.0.bottom" timestamp="1591626544255">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1420" height="147" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
-    <state width="1256" height="269" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1591356181720" />
+    <state width="1256" height="435" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1591626544255" />
     <state width="1258" height="401" key="GridCell.Tab.0.bottom/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591588080163" />
-    <state width="1420" height="147" key="GridCell.Tab.0.center" timestamp="1591589014802">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1256" height="435" key="GridCell.Tab.0.center" timestamp="1591626544255">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1420" height="147" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
-    <state width="1256" height="269" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1591356181720" />
+    <state width="1256" height="435" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1591626544255" />
     <state width="1258" height="401" key="GridCell.Tab.0.center/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591588080163" />
-    <state width="1420" height="147" key="GridCell.Tab.0.left" timestamp="1591589014802">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1256" height="435" key="GridCell.Tab.0.left" timestamp="1591626544255">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1420" height="147" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
-    <state width="1256" height="269" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1591356181720" />
+    <state width="1256" height="435" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1591626544255" />
     <state width="1258" height="401" key="GridCell.Tab.0.left/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591588080163" />
-    <state width="1420" height="147" key="GridCell.Tab.0.right" timestamp="1591589014802">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state width="1256" height="435" key="GridCell.Tab.0.right" timestamp="1591626544255">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1420" height="147" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
-    <state width="1256" height="269" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591356181720" />
+    <state width="1256" height="435" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591626544255" />
     <state width="1258" height="401" key="GridCell.Tab.0.right/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591588080163" />
-    <state width="2539" height="491" key="GridCell.Tab.1.bottom" timestamp="1591288996087">
+    <state width="1256" height="489" key="GridCell.Tab.1.bottom" timestamp="1591620162662">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1591288996087" />
-    <state width="2539" height="491" key="GridCell.Tab.1.center" timestamp="1591288996087">
+    <state width="1256" height="489" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1591620162662" />
+    <state width="1256" height="489" key="GridCell.Tab.1.center" timestamp="1591620162662">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1591288996087" />
-    <state width="2539" height="491" key="GridCell.Tab.1.left" timestamp="1591288996087">
+    <state width="1256" height="489" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1591620162662" />
+    <state width="1256" height="489" key="GridCell.Tab.1.left" timestamp="1591620162662">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1591288996087" />
-    <state width="2539" height="491" key="GridCell.Tab.1.right" timestamp="1591288996087">
+    <state width="1256" height="489" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1591620162662" />
+    <state width="1256" height="489" key="GridCell.Tab.1.right" timestamp="1591620162662">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591288996087" />
-    <state x="837" y="434" key="SettingsEditor" timestamp="1591618983481">
+    <state width="1256" height="489" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591620162662" />
+    <state x="837" y="434" key="SettingsEditor" timestamp="1591615859091">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="837" y="434" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591279721269" />
+    <state x="837" y="434" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591615859091" />
     <state x="837" y="434" key="SettingsEditor/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591618983481" />
     <state x="1174" y="523" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1591279127973">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1174" y="523" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1591279127973" />
-    <state x="1141" y="702" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591278997257">
+    <state x="1141" y="702" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591595912224">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1141" y="702" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1591278997257" />
+    <state x="1141" y="702" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1591595912224" />
   </component>
 </project>
