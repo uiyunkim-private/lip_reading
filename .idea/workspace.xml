@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/util/data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/network/tf_based/util/data_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/utils/realtime_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/utils/realtime_prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lip_reading/utils/dataset_recorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/utils/dataset_recorder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <recent name="F:\repository\lip_reading_yonsei\lip_reading\nn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.real_time_prediction">
+  <component name="RunManager" selected="Python.recorder">
     <configuration name="data_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,27 +76,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lip_reading/network/tf_based/util/data_generator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dataset_recorder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lip_reading_yonsei" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lip_reading/utils/dataset_recorder" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\repository\lip_reading_yonsei\lip_reading\utils\dataset_recorder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,6 +126,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="recorder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lip_reading_yonsei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lip_reading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lip_reading/recorder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.recorder" />
         <item itemvalue="Python.real_time_prediction" />
         <item itemvalue="Python.realtime_prediction" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.data_generator" />
-        <item itemvalue="Python.dataset_recorder" />
       </list>
     </recent_temporary>
   </component>
@@ -238,30 +237,30 @@
     </state>
     <state x="365" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1591589969066" />
     <state x="649" y="374" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1591621128950" />
-    <state width="2539" height="466" key="GridCell.Tab.0.bottom" timestamp="1591629192870">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1420" height="466" key="GridCell.Tab.0.bottom" timestamp="1591631831043">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1420" height="147" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
+    <state width="1420" height="466" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1591631831043" />
     <state width="1256" height="435" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1591626544255" />
-    <state width="2539" height="466" key="GridCell.Tab.0.bottom/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629192870" />
-    <state width="2539" height="466" key="GridCell.Tab.0.center" timestamp="1591629192870">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="466" key="GridCell.Tab.0.bottom/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
+    <state width="1420" height="466" key="GridCell.Tab.0.center" timestamp="1591631831043">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1420" height="147" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
+    <state width="1420" height="466" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1591631831043" />
     <state width="1256" height="435" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1591626544255" />
-    <state width="2539" height="466" key="GridCell.Tab.0.center/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629192870" />
-    <state width="2539" height="466" key="GridCell.Tab.0.left" timestamp="1591629192870">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="466" key="GridCell.Tab.0.center/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
+    <state width="1420" height="466" key="GridCell.Tab.0.left" timestamp="1591631831043">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1420" height="147" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
+    <state width="1420" height="466" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1591631831043" />
     <state width="1256" height="435" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1591626544255" />
-    <state width="2539" height="466" key="GridCell.Tab.0.left/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629192870" />
-    <state width="2539" height="466" key="GridCell.Tab.0.right" timestamp="1591629192870">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="466" key="GridCell.Tab.0.left/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
+    <state width="1420" height="466" key="GridCell.Tab.0.right" timestamp="1591631831043">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1420" height="147" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1591589014802" />
+    <state width="1420" height="466" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1591631831043" />
     <state width="1256" height="435" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591626544255" />
-    <state width="2539" height="466" key="GridCell.Tab.0.right/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629192870" />
+    <state width="2539" height="466" key="GridCell.Tab.0.right/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
     <state width="1256" height="489" key="GridCell.Tab.1.bottom" timestamp="1591620162662">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -44,7 +44,7 @@ def DatasetRecorder(class_name = 'nolabel',type='train',shape=(120,120),save_ori
         os.makedirs(original_dataset_path, exist_ok=True)
     face_detector = dlib.get_frontal_face_detector()
     face_predictor = dlib.shape_predictor(os.path.join(module_path,'lip_reading','storage','system',"shape_predictor_68_face_landmarks.dat"))
-    capture = cv2.VideoCapture(0)
+    capture = cv2.VideoCapture(1)
     capture.set(cv2.CAP_PROP_FPS, 30);
     capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1280);
     capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 720);
