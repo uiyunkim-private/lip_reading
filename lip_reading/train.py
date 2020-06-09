@@ -1,4 +1,4 @@
-from lip_reading.network.tf_based.model import BI_LSTM, VGG_BI_LSTM
+from lip_reading.network.tf_based.model import RES_BI_LSTM, VGG_BI_LSTM
 from lip_reading.network.tf_based.util import LR_generator
 from lip_reading.network.tf_based.util import LoadLatestWeight
 import os
@@ -7,9 +7,9 @@ import sys
 import pickle
 
 module_path = sys.path[1]
-batch_size = 3
+batch_size = 4
 input_shape = (26, 120, 120, 5)
-model_name = 'gen18_VGG_TD_BILSTM'
+model_name = 'gen21_RES_TD_BILSTM'
 
 log_dir = os.path.join(module_path, 'lip_reading', 'storage', 'record', 'log', model_name)
 weight_file = os.path.join(module_path, 'lip_reading', 'storage', 'record', 'weight', model_name, "cp-{epoch:04d}.ckpt")
@@ -33,7 +33,7 @@ weightcheckpoint_callback = tf.keras.callbacks.ModelCheckpoint(weight_file, verb
 
 callback_list = [tensorboard_callback, weightcheckpoint_callback]#,bestmodel_callback]
 
-model = VGG_BI_LSTM(nclasses=2,input_shape = input_shape)
+model = RES_BI_LSTM(nclasses=2,input_shape = input_shape)
 
 model = LoadLatestWeight(model, weight_dir)
 model.fit(x=train_generator, epochs=150, callbacks=callback_list)

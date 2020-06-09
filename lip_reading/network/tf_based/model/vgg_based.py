@@ -2,12 +2,6 @@ from lip_reading.network.tf_based.layer import Vggnet
 from tensorflow.keras import layers
 import tensorflow as tf
 
-def ctc_lambda_func(args):
-    y_pred, labels, input_length, label_length = args
-    # the 2 is critical here since the first couple outputs of the RNN
-    # tend to be garbage:
-    y_pred = y_pred[:, 2:, :]
-    return tf.keras.backend.ctc_batch_cost(labels, y_pred, input_length, label_length)
 
 def VGG_BI_LSTM(nclasses=26,input_shape=(26,120,120,5)):
 
@@ -37,17 +31,7 @@ def VGG_BI_LSTM(nclasses=26,input_shape=(26,120,120,5)):
     model = tf.keras.Model(input,x)
 
     model.compile(optimizer="Adam", loss=tf.keras.losses.categorical_crossentropy, metrics=["accuracy"])
-    #
-    # model.add(layers.LSTM(512,return_sequences=True))
-    # model.add(layers.Activation('relu'))
-    # model.add(layers.Dropout(0.5))
-    # model.add(layers.LSTM(512))
-    # model.add(layers.Activation('relu'))
-    # model.add(layers.Dropout(0.5))
-    # model.add(layers.Dense(nclasses,activation='softmax'))
+
     model.summary()
 
     return model
-
-
-VGG_BI_LSTM()
