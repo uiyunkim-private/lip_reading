@@ -6,13 +6,13 @@ import numpy as np
 
 def lip_reading_image_processing(image):
     image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
+    #image = cv2.equalizeHist(image)
     image = image/255
     #image = transform_image(image,20,3,20)
 
     return image
 
 def LR_preprocessor(ID):
-    print(ID)
     images = []
 
     vidcap = cv2.VideoCapture(ID)

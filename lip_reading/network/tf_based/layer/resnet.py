@@ -115,7 +115,7 @@ def ResNet50(input_shape=(120,120,5)):
     X = AveragePooling2D(pool_size=(2, 2), padding='same')(X)
 
     # Output layer
-    X = Flatten()(X)
+    #X = Flatten()(X)
 
     # Create model
     model = Model(inputs=X_input, outputs=X, name='ResNet50')
