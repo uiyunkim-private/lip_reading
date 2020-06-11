@@ -5,7 +5,7 @@ import os
 import numpy as np
 
 def lip_reading_image_processing(image):
-    image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
+    #image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
     #image = cv2.equalizeHist(image)
     image = image/255
     #image = transform_image(image,20,3,20)
@@ -23,14 +23,14 @@ def LR_preprocessor(ID):
         images.append(image)
         success, image = vidcap.read()
 
-    big_window = []
-    for i in range(len(images)-4):
-        small_window = []
-        for j in range(5):
-            small_window.append((images[i+j]))
-        big_window.append(small_window)
+    # big_window = []
+    # for i in range(len(images)-4):
+    #     small_window = []
+    #     for j in range(5):
+    #         small_window.append((images[i+j]))
+    #     big_window.append(small_window)
 
-    return big_window
+    return images
 
 
 

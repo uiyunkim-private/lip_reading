@@ -74,7 +74,7 @@ def convolutional_block(X, f, filters, stage, block, s=2):
     return X
 
 
-def ResNet50(input_shape=(120,120,5)):
+def ResNet50(input_shape=(120,120,3)):
     # Define the input as a tensor with shape input_shape
     X_input = Input(shape=input_shape)
 
