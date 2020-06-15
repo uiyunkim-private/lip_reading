@@ -120,5 +120,5 @@ dependencies:
     - raven==6.10.0
     - requests-toolbelt==0.9.1
     - tabulate==0.8.7
-prefix: C:\Users\uiyunkim-research\anaconda3\envs\lip_reading_yonsei_tf
+prefix: C:\Users\uiyunkim-research\anaconda3\envs\lip_reading
 
