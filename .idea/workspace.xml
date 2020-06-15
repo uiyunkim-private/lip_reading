@@ -20,8 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/autosetup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lip_reading-1.0.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lip_reading/utils/dataset_downloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shape_predictor_68_face_landmarks.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lip_reading_yonsei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lip_reading_yonsei.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/autosetup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/environment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lab.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/prediction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/record.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lip_reading.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lip_reading.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lip_reading.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lip_reading.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requrements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +54,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/uiyun-kim/lip_reading_kim.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1crFO1IL4OLTDYTWCg465MMxRWP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -55,14 +79,35 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\repository\lip_reading_kim" />
+      <recent name="F:\repository\lip_reading_kim\dist" />
       <recent name="F:\repository\lip_reading_yonsei\lip_reading\utils" />
       <recent name="F:\repository\lip_reading_yonsei\lip_reading" />
       <recent name="F:\repository\lip_reading_yonsei\lip_reading\network\tf_based\util" />
-      <recent name="F:\repository\lip_reading_yonsei\lip_reading\storage" />
-      <recent name="F:\repository\lip_reading_yonsei\lip_reading\nn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.autosetup">
+  <component name="RunManager" selected="Python.lab">
+    <configuration name="autosetup (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lip_reading_yonsei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dist" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dist/autosetup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="autosetup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lip_reading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dist" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\repository\lip_reading_kim\dist\lab.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dist/lab.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="resnet_based" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lip_reading/network/tf_based/model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dist" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lip_reading/network/tf_based/model/resnet_based.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dist/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,34 +192,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vgg_based" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lip_reading_yonsei" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lip_reading/network/tf_based/model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lip_reading/network/tf_based/model/vgg_based.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lab" />
+        <item itemvalue="Python.autosetup (1)" />
+        <item itemvalue="Python.train (1)" />
         <item itemvalue="Python.autosetup" />
         <item itemvalue="Python.train" />
-        <item itemvalue="Python.resnet_based" />
-        <item itemvalue="Python.lab" />
-        <item itemvalue="Python.vgg_based" />
       </list>
     </recent_temporary>
   </component>
@@ -237,36 +261,40 @@
     </state>
     <state x="365" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1591589969066" />
     <state x="649" y="374" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1591862761255" />
-    <state width="1125" height="156" key="GridCell.Tab.0.bottom" timestamp="1591864834362">
+    <state x="726" y="261" key="FileChooserDialogImpl" timestamp="1592121979419">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="726" y="261" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1592121979419" />
+    <state width="1256" height="123" key="GridCell.Tab.0.bottom" timestamp="1592189264902">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.bottom/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
-    <state width="1420" height="305" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1591638845581" />
-    <state width="1125" height="156" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1591864834362" />
+    <state width="1420" height="123" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1592121721802" />
+    <state width="1256" height="123" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1592189264902" />
     <state width="579" height="305" key="GridCell.Tab.0.bottom/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="2539" height="466" key="GridCell.Tab.0.bottom/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
-    <state width="1125" height="156" key="GridCell.Tab.0.center" timestamp="1591864834362">
+    <state width="1256" height="123" key="GridCell.Tab.0.center" timestamp="1592189264902">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.center/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
-    <state width="1420" height="305" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1591638845581" />
-    <state width="1125" height="156" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1591864834362" />
+    <state width="1420" height="123" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1592121721802" />
+    <state width="1256" height="123" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1592189264902" />
     <state width="579" height="305" key="GridCell.Tab.0.center/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="2539" height="466" key="GridCell.Tab.0.center/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
-    <state width="1125" height="156" key="GridCell.Tab.0.left" timestamp="1591864834362">
+    <state width="1256" height="123" key="GridCell.Tab.0.left" timestamp="1592189264902">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.left/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
-    <state width="1420" height="305" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1591638845581" />
-    <state width="1125" height="156" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1591864834362" />
+    <state width="1420" height="123" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1592121721802" />
+    <state width="1256" height="123" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1592189264902" />
     <state width="579" height="305" key="GridCell.Tab.0.left/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="2539" height="466" key="GridCell.Tab.0.left/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
-    <state width="1125" height="156" key="GridCell.Tab.0.right" timestamp="1591864834362">
+    <state width="1256" height="123" key="GridCell.Tab.0.right" timestamp="1592189264902">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.right/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
-    <state width="1420" height="305" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1591638845581" />
-    <state width="1125" height="156" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591864834362" />
+    <state width="1420" height="123" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1592121721802" />
+    <state width="1256" height="123" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1592189264902" />
     <state width="579" height="305" key="GridCell.Tab.0.right/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="2539" height="466" key="GridCell.Tab.0.right/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
     <state width="1256" height="489" key="GridCell.Tab.1.bottom" timestamp="1591620162662">
@@ -285,9 +313,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1256" height="489" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591620162662" />
-    <state x="837" y="434" key="SettingsEditor" timestamp="1591628067314">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="446" y="150" key="SettingsEditor" timestamp="1592120675575">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="446" y="150" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1592120675575" />
     <state x="837" y="434" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591615859091" />
     <state x="837" y="434" key="SettingsEditor/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591628067314" />
     <state x="1174" y="523" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1591279127973">

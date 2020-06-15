@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(name='lip_reading',
 
-      version='0.0.1',
+      version='1.0',
 
       url='',
 
