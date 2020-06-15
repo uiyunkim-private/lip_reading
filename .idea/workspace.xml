@@ -6,8 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autosetup.py" beforeDir="false" afterPath="$PROJECT_DIR$/autosetup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/system/environment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/system/shape_predictor_68_face_landmarks.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\storage\source\python\lip_reading\system" />
       <recent name="F:\repository\lip_reading_kim" />
       <recent name="F:\repository\lip_reading_kim\dist" />
       <recent name="F:\repository\lip_reading_yonsei\lip_reading\utils" />
       <recent name="F:\repository\lip_reading_yonsei\lip_reading" />
-      <recent name="F:\repository\lip_reading_yonsei\lip_reading\network\tf_based\util" />
     </key>
   </component>
   <component name="RunManager" selected="Python.lab">
