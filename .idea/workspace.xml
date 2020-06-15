@@ -1,44 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lip_reading-1.0.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lip_reading/utils/dataset_downloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shape_predictor_68_face_landmarks.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lip_reading_yonsei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lip_reading_yonsei.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/autosetup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/environment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/lab.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/prediction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/record.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading.egg-info/dependency_links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading.egg-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requrements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +44,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -256,6 +226,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1805" y="573" key="#Notifications" timestamp="1592197978250">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1805" y="573" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1592197978250" />
     <state x="649" y="374" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591862761255">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
