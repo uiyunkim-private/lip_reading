@@ -4,3 +4,4 @@ storage/
 lip_reading.egg-info/
 dist/
 *.zip
+*.ini

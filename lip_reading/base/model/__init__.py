@@ -1,0 +1,1 @@
+from lip_reading.base.model.resnet_timedistributed_bilstm import Resnet_Timedistributed_Bilstm
