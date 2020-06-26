@@ -16,9 +16,7 @@ import dlib
 from multiprocessing import Process,Queue
 import multiprocessing
 import threading
-
-
-
+import pickle
 
 class Recorder:
     def __init__(self,window,camera_weight,camera_height):
@@ -35,7 +33,7 @@ class Recorder:
         self.window.protocol("WM_DELETE_WINDOW", self.event_close)
 
     def init_camera(self):
-        self.cap = cv2.VideoCapture(1)
+        self.cap = cv2.VideoCapture(0)
         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.camera_width)
         self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.camera_height)
         self.cap.set(cv2.CAP_PROP_FPS, 30)
@@ -43,9 +41,7 @@ class Recorder:
 
     def init_variables(self):
 
-        with open(CONFIG_PATH) as csv_file:
-            reader = csv.reader(csv_file)
-            configuration = dict(reader)
+        configuration = pickle.load(open(CONFIG_PATH, "rb"))
 
         self.camera_width = int(configuration['Camera Width'])
         self.camera_height = int(configuration['Camera Height'])
@@ -195,10 +191,9 @@ class Main:
     def create_config_file(self):
         if not os.path.exists(CONFIG_PATH):
             config ={'Sampling Rate':30,'Camera Width':1280 , 'Camera Height':720, 'Frames In One Sample':30}
-            with open(CONFIG_PATH, 'w') as csv_file:
-                writer = csv.writer(csv_file)
-                for key, value in config.items():
-                    writer.writerow([key, value])
+            f = open(CONFIG_PATH, "wb")
+            pickle.dump(config, f)
+            f.close()
 
     def init_components(self):
         self.record_button = Button(self.window, text="Record Dataset", command=self.open_recorder)
@@ -235,9 +230,7 @@ class Configuration:
         self.run()
 
     def load_current_config(self):
-        with open(CONFIG_PATH) as csv_file:
-            reader = csv.reader(csv_file)
-            configuration = dict(reader)
+        configuration = pickle.load( open(CONFIG_PATH, "rb" ) )
 
         self.sampling_rate = int(configuration['Sampling Rate'])
         self.camera_width = int(configuration['Camera Width'])
@@ -319,10 +312,11 @@ class Configuration:
                   'Frames In One Sample': self.frames_in_one_sample_scale.get(),
                   'Save Original': self.save_original_button.config('text')[-1]}
 
-        with open(CONFIG_PATH, 'w') as csv_file:
-            writer = csv.writer(csv_file)
-            for key, value in config.items():
-                writer.writerow([key, value])
+
+
+        f = open(CONFIG_PATH, "wb")
+        pickle.dump(config, f)
+        f.close()
 
 
     def event_close(self):
