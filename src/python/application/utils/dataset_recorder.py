@@ -7,16 +7,17 @@ import sys
 import os
 import uuid
 
+global switch
+
 def get_mouth(image, face_detector, face_predictor,mouth_shape):
     rects = face_detector(image, 0)
-    if len(rects) == 0:
+    if len(rects) != 1:
         return None
-    for (i, rect) in enumerate(rects):
-        shape = face_predictor(image, rect)
-        shape = face_utils.shape_to_np(shape)
 
-        (x, y, w, h) = cv2.boundingRect(numpy.array([shape[48:68]]))
-        ratio = 70/ w
+    shape = face_predictor(image, rects[0])
+    shape = face_utils.shape_to_np(shape)
+    (x, y, w, h) = cv2.boundingRect(numpy.array([shape[48:68]]))
+    ratio = 70/ w
     image = cv2.resize(image,dsize=(0, 0),fx=ratio , fy = ratio)
     x = x * ratio
     y = y * ratio
@@ -30,6 +31,9 @@ def get_mouth(image, face_detector, face_predictor,mouth_shape):
     return mouth_image
 
 def DatasetRecorder(class_name = 'nolabel',type='train',shape=(120,120),save_original=True):
+    global switch
+    switch = False
+
     module_path = sys.path[1]
     if class_name == 'nolabel':
         cut_dataset_path = os.path.join(module_path ,'src','storage','dataset','cut',class_name)
@@ -43,7 +47,7 @@ def DatasetRecorder(class_name = 'nolabel',type='train',shape=(120,120),save_ori
             original_dataset_path = os.path.join(module_path,'src','storage', 'dataset', 'original', type, class_name)
         os.makedirs(original_dataset_path, exist_ok=True)
     face_detector = dlib.get_frontal_face_detector()
-    face_predictor = dlib.shape_predictor(os.path.join(module_path,'src','storage','system',"shape_predictor_68_face_landmarks.dat"))
+    face_predictor = dlib.shape_predictor(os.path.join(module_path,'system',"shape_predictor_68_face_landmarks.dat"))
     capture = cv2.VideoCapture(1)
     capture.set(cv2.CAP_PROP_FPS, 30);
     capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1280);

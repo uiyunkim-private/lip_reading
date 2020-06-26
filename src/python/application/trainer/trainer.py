@@ -1,7 +1,6 @@
 import os
 import tensorflow as tf
 from src.python.base.model import Resnet_Timedistributed_Bilstm
-
 from src.python.base import DataGenerator
 
 class Trainer:
