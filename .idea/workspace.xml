@@ -6,47 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/lip_reading/application/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lip_reading/base/future/torch_based/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lip_reading/base/future/torch_based/layer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lip_reading/base/future/torch_based/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lip_reading/base/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lip_reading/base/model/resnet_timedistributed_bilstm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lip_reading/base/util/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lip_reading_yonsei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lip_reading_yonsei.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/application/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/application/trainer/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/layer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/layer/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/layer/resnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/layer/vggnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/model/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/model/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/model/resnet_based.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/model/vgg_based.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/util/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/util/data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/base/util/data_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/util/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/tf_based/util/load_latest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/torch_based/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/application/trainer/trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/torch_based/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/torch_based/layer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/base/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/torch_based/layer/custom_res.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/base/future/torch_based/layer/custom_res.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/torch_based/layer/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/torch_based/layer/timedistributed.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/base/future/torch_based/layer/timedistributed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/torch_based/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/base/future/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/torch_based/model/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/network/torch_based/model/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/base/future/torch_based/model/resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/utils/dataset_downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/application/utils/dataset_downloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/utils/dataset_recorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/application/utils/dataset_recorder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/utils/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/utils/realtime_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/application/utils/realtime_prediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lip_reading/application/utils/dataset_downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/application/utils/dataset_downloader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +46,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -278,10 +242,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1650" y="449" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1592205145291" />
-    <state x="726" y="261" key="FileChooserDialogImpl" timestamp="1592121979419">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="1291" y="427" key="FileChooserDialogImpl" timestamp="1593161444630">
+      <screen x="0" y="23" width="2560" height="1330" />
     </state>
     <state x="726" y="261" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1592121979419" />
+    <state x="1291" y="427" key="FileChooserDialogImpl/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593161444630" />
     <state width="1256" height="123" key="GridCell.Tab.0.bottom" timestamp="1592189264902">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -330,12 +295,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1256" height="489" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591620162662" />
-    <state x="446" y="150" key="SettingsEditor" timestamp="1592120675575">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="793" y="255" key="SettingsEditor" timestamp="1593161451687">
+      <screen x="0" y="23" width="2560" height="1330" />
     </state>
     <state x="446" y="150" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1592120675575" />
     <state x="837" y="434" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591615859091" />
     <state x="837" y="434" key="SettingsEditor/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591628067314" />
+    <state x="793" y="255" key="SettingsEditor/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593161451687" />
     <state x="1174" y="523" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1591279127973">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
