@@ -6,7 +6,7 @@ from imutils import face_utils
 import sys
 import os
 import uuid
-from lip_reading.base.zzz.tf_based import LR_preprocessor
+from src.python.base import LR_preprocessor
 
 def get_mouth(image, face_detector, face_predictor,mouth_shape):
     rects = face_detector(image, 0)
@@ -34,7 +34,7 @@ def RealtimePrediction(model,classes,shape=(120,120)):
     module_path = sys.path[1]
 
     face_detector = dlib.get_frontal_face_detector()
-    face_predictor = dlib.shape_predictor(os.path.join(module_path,'lip_reading','storage','system',"shape_predictor_68_face_landmarks.dat"))
+    face_predictor = dlib.shape_predictor(os.path.join(module_path,'src','storage','system',"shape_predictor_68_face_landmarks.dat"))
     capture = cv2.VideoCapture(0)
     capture.set(cv2.CAP_PROP_FPS, 30);
     capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1280);
@@ -91,13 +91,13 @@ def RealtimePrediction(model,classes,shape=(120,120)):
 
         random_filename = str(uuid.uuid4())
         if(len(faces) == 30):
-            video_writer = cv2.VideoWriter(os.path.join(module_path,'lip_reading','storage','temp',random_filename + ".mp4"), fourcc, 30, shape)
+            video_writer = cv2.VideoWriter(os.path.join(module_path,'src','storage','temp',random_filename + ".mp4"), fourcc, 30, shape)
             info = 'saved [cut]'
             for frame in faces:
                 video_writer.write(frame)
             video_writer.release()
 
-            sample = LR_preprocessor(os.path.join(module_path,'lip_reading','storage','temp',random_filename + ".mp4"))
+            sample = LR_preprocessor(os.path.join(module_path,'src','storage','temp',random_filename + ".mp4"))
             data = numpy.array(sample)
             data = data.reshape(1,26,120,120,5)
             predictions = model.predict(data)

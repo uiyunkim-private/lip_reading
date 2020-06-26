@@ -1,4 +1,4 @@
-name: lip_reading
+name: src
 channels:
   - conda-forge
   - defaults

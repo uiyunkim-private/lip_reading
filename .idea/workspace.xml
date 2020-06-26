@@ -9,7 +9,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/lip_reading_yonsei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lip_reading_yonsei.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lip_reading/application/utils/dataset_downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/lip_reading/application/utils/dataset_downloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autosetup.py" beforeDir="false" afterPath="$PROJECT_DIR$/autosetup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/system/environment_win64.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,13 +296,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1256" height="489" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1591620162662" />
-    <state x="793" y="255" key="SettingsEditor" timestamp="1593161451687">
+    <state x="793" y="255" key="SettingsEditor" timestamp="1593161752916">
       <screen x="0" y="23" width="2560" height="1330" />
     </state>
     <state x="446" y="150" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1592120675575" />
     <state x="837" y="434" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591615859091" />
     <state x="837" y="434" key="SettingsEditor/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591628067314" />
-    <state x="793" y="255" key="SettingsEditor/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593161451687" />
+    <state x="793" y="255" key="SettingsEditor/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593161752916" />
     <state x="1174" y="523" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1591279127973">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

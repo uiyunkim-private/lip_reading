@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name='lip_reading',
+setup(name='src',
 
       version='1.0',
 

@@ -1,8 +1,8 @@
 import os
 import tensorflow as tf
-from lip_reading.base.model import Resnet_Timedistributed_Bilstm
+from src.python.base.model import Resnet_Timedistributed_Bilstm
 
-from lip_reading.base.util import DataGenerator
+from src.python.base import DataGenerator
 
 class Trainer:
     def __init__(self, name='[2CLASS]_[TD]_[RES]_[BILSTM]_[GEN5]',

@@ -1,11 +1,11 @@
 import torch
 import torchvision
-from lip_reading.base.zzz.torch_based import TimeDistributed
+from src.python.base import TimeDistributed
 import sys
 import os
 import cv2
 import torch.nn.functional as F
-from lip_reading.base.zzz.torch_based import resnet50
+from src.python.base import resnet50
 from torch import nn
 
 import torch.optim as optim
