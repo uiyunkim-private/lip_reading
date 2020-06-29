@@ -42,9 +42,9 @@ def DatasetRecorder(class_name = 'nolabel',type='train',shape=(120,120),save_ori
     os.makedirs(cut_dataset_path, exist_ok=True)
     if save_original:
         if class_name == 'nolabel':
-            original_dataset_path = os.path.join(module_path,'src','storage','dataset' ,'original', class_name)
+            original_dataset_path = os.path.join(module_path,'src','storage','dataset' ,'full', class_name)
         else:
-            original_dataset_path = os.path.join(module_path,'src','storage', 'dataset', 'original', type, class_name)
+            original_dataset_path = os.path.join(module_path,'src','storage', 'dataset', 'full', type, class_name)
         os.makedirs(original_dataset_path, exist_ok=True)
     face_detector = dlib.get_frontal_face_detector()
     face_predictor = dlib.shape_predictor(os.path.join(module_path,'system',"shape_predictor_68_face_landmarks.dat"))
@@ -131,7 +131,7 @@ def DatasetRecorder(class_name = 'nolabel',type='train',shape=(120,120),save_ori
             if save_original:
                 if (len(frames) == 30):
                     video_writer = cv2.VideoWriter(os.path.join(original_dataset_path, str(count)+'_'+random_filename + ".mp4"), fourcc, 30,(int(width), int(height)))
-                    info = info +' [original]'
+                    info = info +' [full]'
                     for frame in frames:
                         video_writer.write(frame)
                     video_writer.release()
