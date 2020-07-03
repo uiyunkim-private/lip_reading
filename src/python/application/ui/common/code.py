@@ -43,3 +43,21 @@ class LABEL_WITH_BUTTON:
 
 
 
+class LABEL_WITH_DROPDOWN:
+    def __init__(self,window,label,initial_var,item_list):
+        self.window = window
+        self.label = label
+        self.item_list = item_list
+        self.string_var = tk.StringVar(self.window)
+        self.string_var.set(initial_var)
+        self.create()
+
+    def create(self):
+        self.frame = ttk.Frame(self.window)
+        self.label = Label(self.frame, text=self.label).grid(row=0)
+
+        self.dropdown = tk.OptionMenu(self.frame,self.string_var,*self.item_list)
+        self.dropdown.grid(row=0,column=1)
+
+    def pack(self):
+        self.frame.pack()

@@ -11,21 +11,7 @@ class Trainer:
                  save_class_dict=True,
                  save_best=True):
 
-
-        self.name = name
-        self.callbacks = []
-
-        if save_log_tensorboard:
-            self.log_dir = os.path.join('storage', 'record', 'log', self.name)
-            self.callbacks.append(tf.keras.callbacks.TensorBoard(log_dir=self.log_dir,
-                                                                 update_freq='batch',
-                                                                 profile_batch=0))
-        if save_weight:
-            self.weight_file = os.path.join('storage', 'record', 'weight', self.name,
-                                       "cp-{epoch:04d}.ckpt")
-            self.weight_dir = os.path.dirname(self.weight_file)
-            self.callbacks.append(tf.keras.callbacks.ModelCheckpoint(self.weight_file,
-                                                                     verbose=1,
+                       verbose=1,
                                                                      save_weights_only=True,
                                                                      period=save_weight_frequency))
         if save_class_dict:

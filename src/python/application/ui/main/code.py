@@ -17,7 +17,13 @@ class Main:
 
     def create_config_file(self):
         if not os.path.exists(CONFIG_PATH):
-            config ={'Sampling Rate':30,'Camera Width':1280 , 'Camera Height':720, 'Frames In One Sample':30,'Save Original':True}
+            config ={'Sampling Rate':30,
+                     'Camera Width':1280 ,
+                     'Camera Height':720,
+                     'Frames In One Sample':30,
+                     'Save Original':True,
+                     'Batch Size':4,
+                     'Model':'resnet'}
             f = open(CONFIG_PATH, "wb")
             pickle.dump(config, f)
             f.close()
@@ -30,12 +36,17 @@ class Main:
                                                   self.ui_recorder_command)
         self.ui_recorder.frame.grid(row=0,padx=70,pady=10)
 
+        self.ui_trainer = Ui.LABEL_WITH_BUTTON(self.window,
+                                                  '',
+                                                  '[Trainer]',
+                                                  self.ui_trainer_command)
+        self.ui_trainer.frame.grid(row=1,padx=70,pady=10)
+
         self.ui_configuration = Ui.LABEL_WITH_BUTTON(self.window,
                                                   '',
                                                   '[Configuration]',
                                                   self.ui_configuration_command)
-        self.ui_configuration.frame.grid(row=1,padx=70,pady=10)
-
+        self.ui_configuration.frame.grid(row=2,padx=70,pady=10)
 
 
 
@@ -48,6 +59,11 @@ class Main:
     def ui_configuration_command(self):
         self.window.destroy()
         Ui.Configuration()
+        del self
+
+    def ui_trainer_command(self):
+        self.window.destroy()
+        Ui.Trainer()
         del self
 
     def ui_recorder_command(self):

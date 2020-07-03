@@ -4,7 +4,7 @@ import cv2
 from tkinter import *
 import time
 import os
-from definitions import ROOT_DIR
+from definitions import DATASET_DIR,ROOT_DIR
 import tkinter as tk
 import uuid
 import numpy as np
@@ -72,11 +72,11 @@ class Recorder:
         self.ui_start.pack()
 
     def init_directories(self):
-        if not os.path.exists(os.path.join(ROOT_DIR,'data','face',self.train_or_validation,self.class_name)):
-            os.makedirs(os.path.join(ROOT_DIR,'data','face',self.train_or_validation,self.class_name))
+        if not os.path.exists(os.path.join(DATASET_DIR,'face',self.train_or_validation,self.class_name)):
+            os.makedirs(os.path.join(DATASET_DIR,'face',self.train_or_validation,self.class_name))
         if self.configuration['Save Original']:
-            if not os.path.exists(os.path.join(ROOT_DIR,'data','full',self.train_or_validation,self.class_name)):
-                os.makedirs(os.path.join(ROOT_DIR,'data','full',self.train_or_validation,self.class_name))
+            if not os.path.exists(os.path.join(DATASET_DIR,'full',self.train_or_validation,self.class_name)):
+                os.makedirs(os.path.join(DATASET_DIR,'full',self.train_or_validation,self.class_name))
 
 
     def event_close(self):
@@ -144,7 +144,7 @@ class Recorder:
             cv2.waitKey(1) & 0xFF
             image_count = image_count + 1
 
-        path_original = os.path.join(ROOT_DIR,'data','full',self.train_or_validation,self.class_name,random_filename + '.mp4')
+        path_original = os.path.join(DATASET_DIR,'full',self.train_or_validation,self.class_name,random_filename + '.mp4')
 
         if self.configuration['Save Original']:
             save_video(self.recorded_frames,
@@ -153,7 +153,7 @@ class Recorder:
                        self.configuration['Camera Width'],
                        self.configuration['Camera Height'])
 
-        path_face = os.path.join(ROOT_DIR, 'data', 'face',
+        path_face = os.path.join(DATASET_DIR, 'face',
                                  self.train_or_validation, self.class_name,
                                  random_filename + '.mp4')
         save_video(faces,
