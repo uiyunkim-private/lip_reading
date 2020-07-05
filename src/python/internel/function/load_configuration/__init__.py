@@ -1,1 +1,0 @@
-from src.python.internel.function.load_configuration.code import load_configuration

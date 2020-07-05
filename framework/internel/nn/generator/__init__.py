@@ -1,0 +1,1 @@
+from framework.internel.nn.generator.resnet import Resnet_generator

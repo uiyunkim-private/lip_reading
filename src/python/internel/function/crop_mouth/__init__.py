@@ -1,1 +1,0 @@
-from src.python.internel.function.crop_mouth.code import crop_mouth

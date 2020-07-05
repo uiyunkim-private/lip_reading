@@ -1,1 +1,0 @@
-from src.python.internel.model.resnet import LR_resnet
