@@ -6,70 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/framework/environment/definitions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/internel/nn/generator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/internel/nn/model/resnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/internel/nn/network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/ui/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/ui/trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autosetup.py" beforeDir="false" afterPath="$PROJECT_DIR$/autosetup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/definitions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/environment/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/trainer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/nn/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/trainer/trainer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/common/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/common/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/configuration/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/configuration/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/configuration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/main/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/recorder/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/recorder/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/recorder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/trainer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/ui/trainer/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/tester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/utils/dataset_downloader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/utils/dataset_recorder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/application/utils/realtime_prediction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/nn/callbacks/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/future/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/nn/model/vggnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/future/torch_based/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/future/torch_based/layer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/future/torch_based/layer/custom_res.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/future/torch_based/layer/timedistributed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/future/torch_based/model/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/future/torch_based/model/resnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/model/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/model/resnet_timedistributed_bilstm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/util/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/base/util/data_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/callbacks/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/function/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/function/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/function/crop_mouth/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/function/crop_mouth/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/function/crop_mouth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/function/load_configuration/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/function/load_configuration/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/function/load_configuration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/function/save_video/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/function/save_video/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/function/save_video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/generator/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/generator/resnet/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/generator/resnet/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/nn/generator/resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/layer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/nn/model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/model/resnet/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/model/resnet/code.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/model/vggnet/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/internel/model/vggnet/code.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/configuration.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/framework/environment/configuration.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/environment_win64.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/framework/environment/environment_win64.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/framework/environment/shape_predictor_68_face_landmarks.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/ui/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/tester.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,82 +248,90 @@
     </state>
     <state x="726" y="261" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1592121979419" />
     <state x="1291" y="427" key="FileChooserDialogImpl/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593161444630" />
-    <state width="2539" height="349" key="GridCell.Tab.0.bottom" timestamp="1593985973849">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="349" key="GridCell.Tab.0.bottom" timestamp="1594039224752">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.bottom/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
     <state width="1419" height="209" key="GridCell.Tab.0.bottom/0.0.1440.1039@0.0.1440.1039" timestamp="1593978525136" />
-    <state width="1420" height="243" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1593203539506" />
+    <state width="1420" height="349" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1593986368456" />
+    <state width="1659" height="349" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594039224752" />
     <state width="1867" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593858639316" />
     <state width="1553" height="164" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195720822" />
-    <state width="2539" height="349" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1593985973849" />
+    <state width="2539" height="349" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1593986247623" />
     <state width="579" height="305" key="GridCell.Tab.0.bottom/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="1519" height="417" key="GridCell.Tab.0.bottom/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732673" />
     <state width="2539" height="466" key="GridCell.Tab.0.bottom/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
     <state width="1519" height="417" key="GridCell.Tab.0.bottom/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045120" />
-    <state width="2539" height="349" key="GridCell.Tab.0.center" timestamp="1593985973849">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="349" key="GridCell.Tab.0.center" timestamp="1594039224751">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.center/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
     <state width="1419" height="209" key="GridCell.Tab.0.center/0.0.1440.1039@0.0.1440.1039" timestamp="1593978525136" />
-    <state width="1420" height="243" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1593203539506" />
+    <state width="1420" height="349" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1593986368456" />
+    <state width="1659" height="349" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594039224751" />
     <state width="1867" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593858639316" />
     <state width="1553" height="164" key="GridCell.Tab.0.center/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195720821" />
-    <state width="2539" height="349" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1593985973849" />
+    <state width="2539" height="349" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1593986247623" />
     <state width="579" height="305" key="GridCell.Tab.0.center/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="1519" height="417" key="GridCell.Tab.0.center/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732673" />
     <state width="2539" height="466" key="GridCell.Tab.0.center/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
     <state width="1519" height="417" key="GridCell.Tab.0.center/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045119" />
-    <state width="2539" height="349" key="GridCell.Tab.0.left" timestamp="1593985973849">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="349" key="GridCell.Tab.0.left" timestamp="1594039224751">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.left/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
     <state width="1419" height="209" key="GridCell.Tab.0.left/0.0.1440.1039@0.0.1440.1039" timestamp="1593978525136" />
-    <state width="1420" height="243" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1593203539506" />
+    <state width="1420" height="349" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1593986368456" />
+    <state width="1659" height="349" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594039224751" />
     <state width="1867" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593858639316" />
     <state width="1553" height="164" key="GridCell.Tab.0.left/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195720821" />
-    <state width="2539" height="349" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1593985973849" />
+    <state width="2539" height="349" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1593986247623" />
     <state width="579" height="305" key="GridCell.Tab.0.left/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="1519" height="417" key="GridCell.Tab.0.left/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732672" />
     <state width="2539" height="466" key="GridCell.Tab.0.left/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
     <state width="1519" height="417" key="GridCell.Tab.0.left/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045119" />
-    <state width="2539" height="349" key="GridCell.Tab.0.right" timestamp="1593985973849">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="349" key="GridCell.Tab.0.right" timestamp="1594039224752">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.right/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
     <state width="1419" height="209" key="GridCell.Tab.0.right/0.0.1440.1039@0.0.1440.1039" timestamp="1593978525136" />
-    <state width="1420" height="243" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1593203539506" />
+    <state width="1420" height="349" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1593986368456" />
+    <state width="1659" height="349" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594039224752" />
     <state width="1867" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593858639316" />
     <state width="1553" height="164" key="GridCell.Tab.0.right/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195720822" />
-    <state width="2539" height="349" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1593985973849" />
+    <state width="2539" height="349" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1593986247623" />
     <state width="579" height="305" key="GridCell.Tab.0.right/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="1519" height="417" key="GridCell.Tab.0.right/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732673" />
     <state width="2539" height="466" key="GridCell.Tab.0.right/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
     <state width="1519" height="417" key="GridCell.Tab.0.right/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045119" />
-    <state width="2539" height="489" key="GridCell.Tab.1.bottom" timestamp="1593979955265">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="489" key="GridCell.Tab.1.bottom" timestamp="1594015493126">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
+    <state width="2539" height="489" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594015493126" />
     <state width="1553" height="189" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195151129" />
     <state width="2539" height="489" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1593979955265" />
     <state width="1519" height="417" key="GridCell.Tab.1.bottom/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732674" />
     <state width="1519" height="417" key="GridCell.Tab.1.bottom/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045120" />
-    <state width="2539" height="489" key="GridCell.Tab.1.center" timestamp="1593979955264">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="489" key="GridCell.Tab.1.center" timestamp="1594015493125">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
+    <state width="2539" height="489" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594015493125" />
     <state width="1553" height="189" key="GridCell.Tab.1.center/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195151129" />
     <state width="2539" height="489" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1593979955264" />
     <state width="1519" height="417" key="GridCell.Tab.1.center/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732674" />
     <state width="1519" height="417" key="GridCell.Tab.1.center/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045120" />
-    <state width="2539" height="489" key="GridCell.Tab.1.left" timestamp="1593979955264">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="489" key="GridCell.Tab.1.left" timestamp="1594015493125">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
+    <state width="2539" height="489" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594015493125" />
     <state width="1553" height="189" key="GridCell.Tab.1.left/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195151129" />
     <state width="2539" height="489" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1593979955264" />
     <state width="1519" height="417" key="GridCell.Tab.1.left/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732674" />
     <state width="1519" height="417" key="GridCell.Tab.1.left/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045120" />
-    <state width="2539" height="489" key="GridCell.Tab.1.right" timestamp="1593979955265">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="489" key="GridCell.Tab.1.right" timestamp="1594015493126">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
+    <state width="2539" height="489" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594015493126" />
     <state width="1553" height="189" key="GridCell.Tab.1.right/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195151129" />
     <state width="2539" height="489" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1593979955265" />
     <state width="1519" height="417" key="GridCell.Tab.1.right/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732674" />

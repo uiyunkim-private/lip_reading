@@ -57,6 +57,10 @@ class Tester:
     def init_directories(self):
         if not os.path.exists(os.path.join(DATASET_DIR,'face','test','nolabel')):
             os.makedirs(os.path.join(DATASET_DIR,'face','test','nolabel'))
+        if len(os.listdir(os.path.join(DATASET_DIR,'face','test','nolabel'))) != 0:
+            for videos in os.listdir(os.path.join(DATASET_DIR,'face','test','nolabel')):
+                os.remove(os.path.join(os.path.join(DATASET_DIR,'face','test','nolabel',videos)))
+
 
 
     def init_components(self):
