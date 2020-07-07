@@ -8,3 +8,5 @@ from framework.ui.common import LABEL_WITH_BUTTON,LABEL_WITH_ENTRY,LABEL_WITH_DR
 def initiate():
     print("Lip Reading UI Initiating...")
     Main()
+
+initiate()

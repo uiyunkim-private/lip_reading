@@ -36,8 +36,8 @@ class Recorder:
 
         self.configuration = load_configuration()
         self.stopwatch = self.configuration['Frames In One Sample']
-        self.train_or_validation = 'validation'
-        self.class_name='bravo'
+        self.train_or_validation = 'testset_light_source3'
+        self.class_name='alfa'
         self.switch = False
         self.tick = time.time()
         self.framerate_arr = []

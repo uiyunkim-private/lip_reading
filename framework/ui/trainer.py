@@ -45,4 +45,3 @@ class Trainer:
 
     def run(self):
         self.window.mainloop()
-

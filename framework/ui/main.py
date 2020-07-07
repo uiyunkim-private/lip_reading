@@ -64,6 +64,7 @@ class Main:
         self.window.destroy()
         Ui.Tester()
         del self
+        exit(1)
 
     def ui_configuration_command(self):
         self.window.destroy()

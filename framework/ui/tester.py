@@ -162,7 +162,7 @@ class Tester:
         self.recorded_frames = []
 
 
-        generator = Resnet_generator(os.path.join(DATASET_DIR,'face','test'), batch_size=1, output_shape=(26, 5, 120, 120, 1))
+        generator = Resnet_generator(os.path.join(DATASET_DIR,'face','test'), batch_size=1, output_shape=(30, 120, 120, 1),augment=False)
 
         answer = self.model.predict_classes(generator[0])
 

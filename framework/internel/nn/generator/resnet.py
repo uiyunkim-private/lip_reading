@@ -1,6 +1,6 @@
 from tensorflow.keras import layers
 import tensorflow as tf
-
+import time
 from tensorflow.keras.layers import *
 from tensorflow.keras.initializers import *
 from tensorflow.keras import Model
@@ -9,18 +9,21 @@ from natsort import natsorted
 import cv2
 import os
 import numpy as np
-
+from framework.environment.definitions import MODEL_DIR,ROOT_DIR
 def lip_reading_image_processing(image):
     image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
     #image = cv2.equalizeHist(image)
     image = image/255
 
-
-    #image = transform_image(image,20,3,20)
-
     return image
 
-def LR_preprocessor(ID):
+def lip_reading_augmentation(images):
+
+    #images = transform_image(images, 20, 3, 20)
+    images = transform_image(images, 30, 0, 0)
+    return images
+
+def LR_preprocessor(ID,augmentation=False):
     images = []
 
     vidcap = cv2.VideoCapture(ID)
@@ -31,14 +34,17 @@ def LR_preprocessor(ID):
         images.append(image)
         success, image = vidcap.read()
 
-    big_window = []
-    for i in range(len(images)-4):
-        small_window = []
-        for j in range(5):
-            small_window.append((images[i+j]))
-        big_window.append(small_window)
+    if augmentation:
+        images = lip_reading_augmentation(images)
 
-    return big_window
+    # big_window = []
+    # for i in range(len(images)-4):
+    #     small_window = []
+    #     for j in range(5):
+    #         small_window.append((images[i+j]))
+    #     big_window.append(small_window)
+
+    return images
 
 
 
@@ -51,13 +57,13 @@ def augment_brightness_camera_images(image):
     return image1
 
 
-def transform_image(img, ang_range, shear_range, trans_range, brightness=0):
+def transform_image(images, ang_range, shear_range, trans_range, brightness=0):
 
     # Rotation
 
     ang_rot = np.random.uniform(ang_range) - ang_range / 2
 
-    rows, cols = img.shape
+    rows, cols = images[0].shape
     Rot_M = cv2.getRotationMatrix2D((cols / 2, rows / 2), ang_rot, 1)
 
     # Translation
@@ -77,14 +83,17 @@ def transform_image(img, ang_range, shear_range, trans_range, brightness=0):
 
     shear_M = cv2.getAffineTransform(pts1, pts2)
 
-    img = cv2.warpAffine(img, Rot_M, (cols, rows))
-    img = cv2.warpAffine(img, Trans_M, (cols, rows))
-    img = cv2.warpAffine(img, shear_M, (cols, rows))
+    for i in range(len(images)):
+        images[i] = cv2.warpAffine(images[i], Rot_M, (cols, rows))
+        images[i] = cv2.warpAffine(images[i], Trans_M, (cols, rows))
+        images[i] = cv2.warpAffine(images[i], shear_M, (cols, rows))
+        #time.sleep(0.05)
 
-    if brightness == 1:
-        img = augment_brightness_camera_images(img)
 
-    return img
+    #if brightness == 1:
+    #    img = augment_brightness_camera_images(img)
+
+    return images
 
 class Resnet_generator(tf.keras.utils.Sequence):
     def __init__(self, data_path, batch_size=32, shuffle=True, augment=True,output_shape=(26,120,120,5)):
@@ -135,7 +144,7 @@ class Resnet_generator(tf.keras.utils.Sequence):
         y = np.empty((self.batch_size), dtype=int)
 
         for i, ID in enumerate(list_IDs_temp):
-            data.append(self.solver(ID))
+            data.append(self.solver(ID,self.augment))
             y[i] = self.labels[ID]
 
         data = np.array(data)
@@ -146,3 +155,25 @@ class Resnet_generator(tf.keras.utils.Sequence):
     def get_classes(self):
         return self.classes
 
+def test_generator():
+    batch_size = 4
+    validation_data_path = os.path.join(ROOT_DIR, 'data', 'dataset', 'face', 'train')
+    validation_generator = Resnet_generator(data_path=validation_data_path,
+                                                 batch_size=batch_size,
+                                                 output_shape=(26, 5, 120, 120, 1),
+                                                 augment=True)
+
+    for q in range(len(validation_generator)):
+        for i in range(batch_size):
+            sample = validation_generator[q][0]
+            for j in range(4):
+                for k in range(26):
+                    for l in range(5):
+                        print(sample[j][k][l].shape)
+                        print(i,j,k,l)
+                        cv2.imshow('sample',sample[j][k][l])
+
+                        if cv2.waitKey(1) & 0xFF == ord('q'):
+                            break
+
+#test_generator()
