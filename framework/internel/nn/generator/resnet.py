@@ -11,16 +11,32 @@ import os
 import numpy as np
 from framework.environment.definitions import MODEL_DIR,ROOT_DIR
 def lip_reading_image_processing(image):
-    image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
+    #image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
+
+
+
+    blurred = cv2.GaussianBlur(image, (33, 33), 0)
+
+    image = image / (blurred ) * 255
+    #normalized = cv2.normalize(image,  None, 0, 1, cv2.NORM_MINMAX)
+
+    #print(normalized.shape)
+   # image = cv2.cvtColor(normalized, cv2.COLOR_BGR2GRAY)
+
+
+    #print(normalized)
+    #image = 255 - image
+    #image = cv2.fastNlMeansDenoising(image, None, 10, 10, 7)
     #image = cv2.equalizeHist(image)
-    image = image/255
+
+    #image = image/255
 
     return image
 
 def lip_reading_augmentation(images):
 
     #images = transform_image(images, 20, 3, 20)
-    images = transform_image(images, 30, 0, 0)
+    #images = transform_image(images, 30, 0, 0)
     return images
 
 def LR_preprocessor(ID,augmentation=False):
@@ -157,23 +173,33 @@ class Resnet_generator(tf.keras.utils.Sequence):
 
 def test_generator():
     batch_size = 4
-    validation_data_path = os.path.join(ROOT_DIR, 'data', 'dataset', 'face', 'train')
-    validation_generator = Resnet_generator(data_path=validation_data_path,
+    validation_data_path1 = os.path.join(ROOT_DIR, 'data', 'dataset', 'face', 'testset_light_source2')
+    validation_generator1 = Resnet_generator(data_path=validation_data_path1,
                                                  batch_size=batch_size,
-                                                 output_shape=(26, 5, 120, 120, 1),
+                                                 output_shape=(30, 120, 120, 3),
+                                                 augment=True)
+    validation_data_path2 = os.path.join(ROOT_DIR, 'data', 'dataset', 'face', 'testset_light_source2')
+    validation_generator2 = Resnet_generator(data_path=validation_data_path2,
+                                                 batch_size=batch_size,
+                                                 output_shape=(30, 120, 120, 3),
+                                                 augment=True)
+    validation_data_path3 = os.path.join(ROOT_DIR, 'data', 'dataset', 'face', 'testset_light_source2')
+    validation_generator3 = Resnet_generator(data_path=validation_data_path3,
+                                                 batch_size=batch_size,
+                                                 output_shape=(30, 120, 120, 3),
                                                  augment=True)
 
-    for q in range(len(validation_generator)):
+    for q in range(len(validation_generator1)):
         for i in range(batch_size):
-            sample = validation_generator[q][0]
+            sample = validation_generator1[q][0]
             for j in range(4):
-                for k in range(26):
-                    for l in range(5):
-                        print(sample[j][k][l].shape)
-                        print(i,j,k,l)
-                        cv2.imshow('sample',sample[j][k][l])
+                for k in range(30):
 
-                        if cv2.waitKey(1) & 0xFF == ord('q'):
-                            break
+                    print(sample[j][k].shape)
+                    print(i,j,k)
+                    cv2.imshow('sample',sample[j][k])
 
-#test_generator()
+                    if cv2.waitKey(1) & 0xFF == ord('q'):
+                        break
+
+test_generator()
