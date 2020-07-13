@@ -6,15 +6,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f3b3522-c82b-4df5-95ff-fc6741673626" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/environment/configuration.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internel/protocol/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internel/protocol/sample_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/internel/nn/generator/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/nn/generator/resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/internel/nn/model/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/nn/model/resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/internel/nn/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/internel/nn/network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/ui/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/ui/recorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/recorder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/ui/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/tester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/ui/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/ui/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/environment/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/environment/configuration.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/environment/definitions.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment/variable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/environment/environment_win64.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/environment/environment_win64.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/environment/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/environment/shape_predictor_68_face_landmarks.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/callback.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/function/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/function/crop_mouth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/function/load_configuration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/function/save_video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/nn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/internel/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/nn/callbacks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/internel/nn/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/nn/generator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/internel/nn/generator/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/nn/generator/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/internel/nn/generator/resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/nn/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/internel/nn/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/nn/model/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/gen1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/nn/model/vggnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/internel/nn/model/vggnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/internel/nn/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/internel/nn/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/ui/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/ui/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/ui/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/ui/recorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/recorder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/ui/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/tester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/ui/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,19 +82,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mnist" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\uiyunkim-research\Documents\GitHub\lip_reading\framework\internel\nn\model" />
-      <recent name="C:\Users\uiyunkim-research\Documents\GitHub\lip_reading\framework" />
-      <recent name="C:\Users\uiyunkim-research\Documents\GitHub\lip_reading\framework\internel\nn" />
-      <recent name="C:\Users\uiyunkim-research\Documents\GitHub\lip_reading\framework\system" />
-      <recent name="C:\Users\uiyunkim-research\Documents\GitHub\lip_reading\system" />
+      <recent name="C:\Users\research\Documents\GitHub\lip_reading\src\model" />
+      <recent name="C:\Users\research\Documents\GitHub\lip_reading\framework" />
+      <recent name="C:\Users\research\Documents\GitHub\lip_reading\framework\util" />
+      <recent name="C:\Users\research\Documents\GitHub\lip_reading\framework\network" />
+      <recent name="C:\Users\research\Documents\GitHub\lip_reading" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.resnet (1)">
+  <component name="RunManager" selected="Python.__init__">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framework/ui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/framework/ui/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="network (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="facecropper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framework/internel/nn" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/internel/function" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/framework/internel/nn/network.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\research\Documents\GitHub\lip_reading\internel\function\facecropper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="resnet (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gen1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framework/internel/nn/generator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/framework/internel/nn/generator/resnet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/model/gen1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="resnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="generator (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framework/internel/nn/model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/framework/internel/nn/model/resnet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/framework/generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lip_reading_yonsei" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,11 +187,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framework/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\research\Documents\GitHub\lip_reading\framework\generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lip_reading_yonsei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.resnet (1)" />
-        <item itemvalue="Python.network (1)" />
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.resnet" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.gen1" />
+        <item itemvalue="Python.generator (1)" />
+        <item itemvalue="Python.facecropper" />
       </list>
     </recent_temporary>
   </component>
@@ -246,102 +294,103 @@
     </state>
     <state x="365" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1591589969066" />
     <state x="649" y="374" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1594136236560" />
-    <state x="1650" y="449" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592205145291">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="1083" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594620846892">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="1650" y="449" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1592205145291" />
-    <state x="1291" y="425" key="FileChooserDialogImpl" timestamp="1594124749667">
+    <state x="1083" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1594620846892" />
+    <state x="1650" y="449" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1594360086143" />
+    <state x="1291" y="425" key="FileChooserDialogImpl" timestamp="1594232304164">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="726" y="261" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1592121979419" />
-    <state x="1291" y="425" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1594124749667" />
+    <state x="1291" y="425" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1594232304164" />
     <state x="1291" y="427" key="FileChooserDialogImpl/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593161444630" />
-    <state width="2539" height="450" key="GridCell.Tab.0.bottom" timestamp="1594193660447">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="147" key="GridCell.Tab.0.bottom" timestamp="1594630863388">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.bottom/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
     <state width="1419" height="209" key="GridCell.Tab.0.bottom/0.0.1440.1039@0.0.1440.1039" timestamp="1593978525136" />
     <state width="1420" height="349" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1593986368456" />
-    <state width="1659" height="267" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594145220389" />
+    <state width="1659" height="147" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594630863388" />
     <state width="1867" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593858639316" />
     <state width="1553" height="164" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195720822" />
-    <state width="2539" height="450" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1594193660447" />
+    <state width="2539" height="376" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1594475103372" />
     <state width="579" height="305" key="GridCell.Tab.0.bottom/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="1519" height="417" key="GridCell.Tab.0.bottom/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732673" />
     <state width="2539" height="466" key="GridCell.Tab.0.bottom/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
     <state width="1519" height="417" key="GridCell.Tab.0.bottom/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045120" />
-    <state width="2539" height="450" key="GridCell.Tab.0.center" timestamp="1594193660447">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="147" key="GridCell.Tab.0.center" timestamp="1594630863388">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.center/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
     <state width="1419" height="209" key="GridCell.Tab.0.center/0.0.1440.1039@0.0.1440.1039" timestamp="1593978525136" />
     <state width="1420" height="349" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1593986368456" />
-    <state width="1659" height="267" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594145220389" />
+    <state width="1659" height="147" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594630863388" />
     <state width="1867" height="287" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593858639316" />
     <state width="1553" height="164" key="GridCell.Tab.0.center/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195720821" />
-    <state width="2539" height="450" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1594193660447" />
+    <state width="2539" height="376" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1594475103372" />
     <state width="579" height="305" key="GridCell.Tab.0.center/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="1519" height="417" key="GridCell.Tab.0.center/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732673" />
     <state width="2539" height="466" key="GridCell.Tab.0.center/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
     <state width="1519" height="417" key="GridCell.Tab.0.center/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045119" />
-    <state width="2539" height="450" key="GridCell.Tab.0.left" timestamp="1594193660447">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="147" key="GridCell.Tab.0.left" timestamp="1594630863388">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.left/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
     <state width="1419" height="209" key="GridCell.Tab.0.left/0.0.1440.1039@0.0.1440.1039" timestamp="1593978525136" />
     <state width="1420" height="349" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1593986368456" />
-    <state width="1659" height="267" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594145220389" />
+    <state width="1659" height="147" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594630863388" />
     <state width="1867" height="287" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593858639316" />
     <state width="1553" height="164" key="GridCell.Tab.0.left/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195720821" />
-    <state width="2539" height="450" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1594193660447" />
+    <state width="2539" height="376" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1594475103372" />
     <state width="579" height="305" key="GridCell.Tab.0.left/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="1519" height="417" key="GridCell.Tab.0.left/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732672" />
     <state width="2539" height="466" key="GridCell.Tab.0.left/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
     <state width="1519" height="417" key="GridCell.Tab.0.left/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045119" />
-    <state width="2539" height="450" key="GridCell.Tab.0.right" timestamp="1594193660447">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1659" height="147" key="GridCell.Tab.0.right" timestamp="1594630863388">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1183" height="305" key="GridCell.Tab.0.right/0.0.1204.560@0.0.1204.560" timestamp="1591661889744" />
     <state width="1419" height="209" key="GridCell.Tab.0.right/0.0.1440.1039@0.0.1440.1039" timestamp="1593978525136" />
     <state width="1420" height="349" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1593986368456" />
-    <state width="1659" height="267" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594145220389" />
+    <state width="1659" height="147" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594630863388" />
     <state width="1867" height="287" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593858639316" />
     <state width="1553" height="164" key="GridCell.Tab.0.right/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195720822" />
-    <state width="2539" height="450" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1594193660447" />
+    <state width="2539" height="376" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1594475103372" />
     <state width="579" height="305" key="GridCell.Tab.0.right/0.0.600.1164@0.0.600.1164" timestamp="1591660906122" />
     <state width="1519" height="417" key="GridCell.Tab.0.right/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732673" />
     <state width="2539" height="466" key="GridCell.Tab.0.right/2560.0.1440.880/0.0.2560.1400@0.0.2560.1400" timestamp="1591629303527" />
     <state width="1519" height="417" key="GridCell.Tab.0.right/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045119" />
-    <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1594193528009">
+    <state width="1256" height="491" key="GridCell.Tab.1.bottom" timestamp="1594461184066">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="489" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1594015493126" />
     <state width="1553" height="189" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195151129" />
-    <state width="2539" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1594193528009" />
+    <state width="1256" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1594461184066" />
     <state width="1519" height="417" key="GridCell.Tab.1.bottom/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732674" />
     <state width="1519" height="417" key="GridCell.Tab.1.bottom/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045120" />
-    <state width="2539" height="492" key="GridCell.Tab.1.center" timestamp="1594193528009">
+    <state width="1256" height="491" key="GridCell.Tab.1.center" timestamp="1594461184066">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="489" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1594015493125" />
     <state width="1553" height="189" key="GridCell.Tab.1.center/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195151129" />
-    <state width="2539" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1594193528009" />
+    <state width="1256" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1594461184066" />
     <state width="1519" height="417" key="GridCell.Tab.1.center/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732674" />
     <state width="1519" height="417" key="GridCell.Tab.1.center/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045120" />
-    <state width="2539" height="492" key="GridCell.Tab.1.left" timestamp="1594193528009">
+    <state width="1256" height="491" key="GridCell.Tab.1.left" timestamp="1594461184066">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="489" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1594015493125" />
     <state width="1553" height="189" key="GridCell.Tab.1.left/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195151129" />
-    <state width="2539" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1594193528009" />
+    <state width="1256" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1594461184066" />
     <state width="1519" height="417" key="GridCell.Tab.1.left/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732674" />
     <state width="1519" height="417" key="GridCell.Tab.1.left/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045120" />
-    <state width="2539" height="492" key="GridCell.Tab.1.right" timestamp="1594193528009">
+    <state width="1256" height="491" key="GridCell.Tab.1.right" timestamp="1594461184066">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="489" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1594015493126" />
     <state width="1553" height="189" key="GridCell.Tab.1.right/0.0.2560.1400/2560.383.1680.1010@0.0.2560.1400" timestamp="1593195151129" />
-    <state width="2539" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1594193528009" />
+    <state width="1256" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1594461184066" />
     <state width="1519" height="417" key="GridCell.Tab.1.right/0.23.2560.1330/2560.413.1680.1027@0.23.2560.1330" timestamp="1593191732674" />
     <state width="1519" height="417" key="GridCell.Tab.1.right/2560.413.1680.1027/0.23.2560.1330@0.23.2560.1330" timestamp="1593189045120" />
     <state x="837" y="434" key="SettingsEditor" timestamp="1594124768055">
@@ -356,10 +405,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1174" y="523" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1591279127973" />
-    <state x="1141" y="702" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591595912224">
+    <state x="1141" y="702" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594458475966">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1141" y="702" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1591595912224" />
+    <state x="1141" y="702" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1594458475966" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1593182686951">
       <screen x="0" y="23" width="2560" height="1330" />
     </state>
