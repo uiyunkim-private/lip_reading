@@ -1,1 +1,1 @@
-# lip_reading_yonsei
+# lip_reading
